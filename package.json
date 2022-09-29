@@ -1,10 +1,8 @@
 {
-  "name": "to-do-list",
+  "name": "To-do-list",
   "version": "1.0.0",
   "description": "",
-  "build": "webpack",
-  "watch": "webpack --watch",
-  "start": "webpack serve --open",
+  "private": true,
   "dependencies": {
     "lodash": "^4.17.21"
   },
@@ -26,7 +24,10 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open"
   },
   "repository": {
     "type": "git",
