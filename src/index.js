@@ -1,7 +1,7 @@
 // css files here
 import './styles.css';
-import TodoList from './todolist.js';
-import * as Element from './elements.js';
+import TodoList from './modules/todolist.js';
+import * as Element from './modules/elements.js';
 
 const newTask = new TodoList();
 
