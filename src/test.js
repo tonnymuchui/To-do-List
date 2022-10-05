@@ -21,4 +21,14 @@ describe('Test if function are working', () => {
     testToDoTask.changeComplete(1);
     expect(testToDoTask.listArray[0].completed).toBe(true);
   });
+
+  test('Test the edit function is working', () => {
+    testToDoTask.editTask(1, 'test1');
+    expect(testToDoTask.listArray[0].description).toBe('test1');
+  });
+
+  test('Test clearCompleted function is working', () => {
+    testToDoTask.clearCompleted();
+    expect(testToDoTask.listArray.length).toBe(0);
+  });
 });
