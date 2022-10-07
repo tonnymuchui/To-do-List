@@ -1,7 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+The to do list app helps people to track what they have to do in a day. You can add a new activity with description, remove it and also check it if it is completed.
+
 # To-do-list
-- The to do list app helps people to track what they have to do in a day. You can add a new activity with description, remove it and also check it if it is completed.
 
 > ![](./images/todo1.png)
 
