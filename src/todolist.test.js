@@ -3,7 +3,7 @@
  */
 import TodoList from './modules/todolist.js';
 
-describe('Test if function are working', () => {
+describe('Test if functions are working', () => {
   const testToDoTask = new TodoList();
 
   test('Test addTask function is working', () => {
