@@ -29,7 +29,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve --open"
