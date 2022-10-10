@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
 }
 
-#list-container {
+#list-content {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
@@ -27,6 +27,33 @@ html {
 #icon {
   color: gray;
 }
+
+button {
+  border: none;
+  color: gray;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.edit {
+  background-color: rgba(255, 235, 205);
+}
+
+.edit input {
+  border: none;
+  background-color: rgba(255, 235, 205);
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
 
 .input {
   border: none;
@@ -63,30 +90,4 @@ i {
   padding: 1rem;
   border-bottom: 1px solid rgba(220, 220, 220, 1);
   background-color: rgb(238, 238, 238);
-}
-
-button {
-  border: none;
-  color: gray;
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.edit {
-  background-color: rgba(255, 235, 205);
-}
-
-.edit input {
-  border: none;
-  background-color: rgba(255, 235, 205);
-  font-size: 1rem;
-  margin-left: 1rem;
-}
-
-input:focus {
-  outline: none;
-}
-
-.strike {
-  text-decoration: line-through;
 }
